@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&subset=latin-ext,vietnamese');
+
+/*Reset*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.content {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.calltoaction {
+  color: #FFFFFF;
+  background-color: #0073CF;
+  border: 2px solid #FFFFFF;
+  border-radius: .5em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Nav */
+
+/*Logo*/
+.logo {
+  width: 182px;
+  height: 48px;
+}
+
+
+/*Dropdown*/
+.pijl {
+  position: relative;
+  float: right;
+  /*top: 7.5px;
+  left: 1px;*/
+  margin: 7px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-top: 9px solid #0073CF;
+}
+
+.dropbtn {
+  background-color: #FFFFFF;
+  color: #0073CF;
+  font-size: 15pt;
+
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .pijl {
+  border-bottom: 9px solid #0073CF;
+  border-top: 0;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+}
+
+nav li img {
+  width: 13px;
+  height: 14px;
+}
+
+nav {
+  padding-top: 1em;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Header*/
+
+header {
+  background-image: url("images/slide-iddink1.jpg");
+  background-position: 0 -85px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+header p {
+  font-size: 21.25px;
+  color: #FFFFFF;
+  max-width: 390px;
+  padding: 5em 0 0 3em;
+  margin: .3em;
+}
+
+header .calltoaction {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1em 1.5em 1em 1.5em;
+  margin: 5em 5em 2em 5em;
+  margin-left: 17em;
+}
+
+header img {
+  float: right;
+  position: relative;
+  top: -4.4em;
+  right: 1em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*intro*/
+
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+.intro h2 {
+  color: #0073CF;
+  font-weight: bold;
+}
+
+.intro .calltoaction {
+  font-size: 20px;
+  padding: .7em 1.7em;
+}
+
+.intro .ipadreg {
+  font-size: 1em;
+  color: #0073CF;
+}
+
+
+.intro img {
+  position: relative;
+  bottom: 7.5em;
+  right: -18.3em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*4inarow*/
+
+.fourinarow {
+  margin-top: -5em;
+}
+
+.column {
+  float: left;
+  font-size: 0.90em;
+  margin: 0 auto;
+}
+
+.een {
+  float: left;
+  padding-right: 2.5px;
+}
+
+.twee {
+  float: center;
+  padding-right: 2.5px;
+}
+
+.drie {
+  float: center;
+  padding-right: 2.5px;
+}
+.vier {
+  float: right;
+  padding-right: 2.5px;
+}
+
+.imagecollums{
+  margin: 0 auto;
+  max-width: 110%;
+  padding: 1px;
+  padding-right: 2px;
+}
+
+.toptext {
+  color: #0073CF;
+  font-weight: bold;
+}
+
+.fourinarow p {
+  max-width: 280px;
+}
+
+.bottomtext {
+  color: #0073CF;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*win*/
+
+.win {
+  margin-top: 28em;
+  background-color: #85BADF;
+  width: 100%;
+  color: white;
+}
+
+.win .content {
+  padding-top: 2em;
+  padding-bottom: 21.3em;
+}
+
+.ipadwinactie {
+  float: left;
+  max-width: 50%;
+}
+
+.ipadwinactie img {
+  position: absolute;
+  bottom: -38.8em;
+  left: 35.5em;
+}
+
+.ipadwinactierechts {
+  float: right;
+}
+
+.win .calltoaction {
+  margin-top: 2em;
+  font-size: 16px;
+  padding: 1em 1.5em;
+}
+
+.win h2 {
+  font-weight: bold;
+}
+
+.ipadplaatje{
+  padding-bottom: 20PX;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*contact*/
+
+.contact {
+  text-align: center;
+  padding: 2em
+}
+
+.contact p {
+  font-size: 1.2em;
+}
+
+.contact h2 {
+  font-weight: bold;
+  color: #0073CF;
+}
+
+.contact .calltoaction {
+  padding: .8em 1.5em;
+  margin-left: 4em;
+}
+
+.contact .main {
+  margin-right: 4em
+}
+
+.contact img {
+  float: right;
+  margin-top: -8em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Footer*/
+
+footer {
+  background-color: #0073CF;
+  color: #FFFFFF;
+  padding: 3em;
+}
+
+footer img {
+  width: 146px;
+  height: 38px;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  padding-left: 2.5em;
+}
+
+footer li:nth-child(7) {
+  padding-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer .links{
+  float: left;
+}
+
+footer .links p {
+  padding-top: 2em;
+}
+
+footer .rechts {
+  float: right;
+}
+
+footer .rechts p {
+  padding-top: 4.55em;
+  position: absolute;
+  right: 12.1em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
